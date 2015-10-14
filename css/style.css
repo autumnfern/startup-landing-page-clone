@@ -1,0 +1,143 @@
+<style type="text/css">
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+div {
+    /*border: 1px solid Chocolate;*/
+}
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+:focus {
+    outline: none;
+}
+
+
+/**
+ * Navigation Section
+ */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+.top-navigation .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0px 15px
+}
+.top-navigation .logo {
+    height: 4.375rem;
+    padding: 0px 15px
+}
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+    
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+    
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.introduction {
+    background-image: url('http://i1045.photobucket.com/albums/b453/autumnfern3/karma_image1_zpsiikrerps.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;}
+
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+
+.introduction h3 {
+    margin-top: 2.5rem;
+    font-size: 1.75rem;
+}
+
+.introduction h1, h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    }
+
+.introduction .buttons {
+    color: #fff;
+    text-align: center;
+    margin-top: 1.56rem;
+
+}
+
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+button:hover { 
+    background-color: #492214;
+}
+
+big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    line-height: 1.33;
+    background-color: #cc0000;
+    width: 15rem;
+    color: #fff;
+    cursor: pointer; 
+    cursor: hand; 
+
+}
+
+small-button {
+    width: 4.688rem;
+    background-color: #090909;
+    border-color: #090909;
+    text-shadow: 2px 2px #ff0000;
+    border-style: none;
+    border-radius: 3px;
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+</style>
